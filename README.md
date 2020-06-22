@@ -22,13 +22,14 @@ Make sure to activate the environment before doing following steps.
 ```shell
 pip install newsapi-python
 ```
-4. clone the project or copy all the files into this directory.
-5. Run application.py locally with Python on port 5000
+4. Clone the project or copy all the files into this directory.
+5. Get your API key for NewsAPI at <a href="https://newsapi.org/register">`https://newsapi.org/register`</a>. Then, copy and past your API key into application.py line 8.
+6. Run application.py locally with Python on port 5000
 >input this code into your terminal
 ```shell
 python application.py
 ```
-6. Open your broswer and input url "http://127.0.0.1:5000/index.html" and you will be able to see the website.
+7. Open your broswer and input url "http://127.0.0.1:5000/index.html" and you will be able to see the website.
 
 If using Pycharm, just follow the instructions at <a href="https://www.jetbrains.com/help/pycharm/creating-flask-project.html">`https://www.jetbrains.com/help/pycharm/creating-flask-project.html`</a>. It is really easy to build the environment and run the app.
 

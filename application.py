@@ -5,7 +5,7 @@ import re
 import json
 
 application = Flask(__name__, static_url_path="")
-newsapi = NewsApiClient(api_key='acd3355df047493f9fabfcb0fbaf6ebe')
+newsapi = NewsApiClient(api_key='your API key')
 
 #the url which shows the web page
 @application.route("/index")
