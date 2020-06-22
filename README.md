@@ -34,18 +34,16 @@ If using Pycharm, just follow the instructions at <a href="https://www.jetbrains
 
 ## Features
 1. Home Page
--Top headlines are provided by the Google News API in sliding format (change every few seconds).
--Words are sorted by frequency and then generate a Word cloud which is displayed next to the slide.
--Specific headlines from CNN and Fox News are provided below the slides.
+- Top headlines are provided by the Google News API in sliding format (change every few seconds).
+- Words are sorted by frequency and then generate a Word cloud which is displayed next to the slide.
+- Specific headlines from CNN and Fox News are provided below the slides.
 2. Search Page
--Can set restrictions for the searching (including keyword, from, to, category, source).
--The dropdown menu for source is updated dynamically when category changes.
--Form validation is performed before submitting.
--Click show more button can show 15 news at most, click show less button display the first 5 articles.
--Every news card have hover effect and is clickable, additional information will be desplayed after clicking.
+- Can set restrictions for the searching (including keyword, from, to, category, source).
+- The dropdown menu for source is updated dynamically when category changes.
+- Form validation is performed before submitting.
+- Click show more button can show 15 news at most, click show less button display the first 5 articles.
+- Every news card have hover effect and is clickable, additional information will be desplayed after clicking.
 
 ## Reference
-- word cloud is implemented using D3.js
- <a href="https://www.d3-graph-gallery.com/graph/wordcloud_size.html">`https://www.d3-graph-gallery.com/graph/wordcloud_size.html`</a>
-- stop words
- <a href="https://sites.google.com/site/kevinbouge/stopwords-lists">`https://sites.google.com/site/kevinbouge/stopwords-lists`</a>
+- word cloud is implemented using D3.js <a href="https://www.d3-graph-gallery.com/graph/wordcloud_size.html">`https://www.d3-graph-gallery.com/graph/wordcloud_size.html`</a>
+- stop words <a href="https://sites.google.com/site/kevinbouge/stopwords-lists">`https://sites.google.com/site/kevinbouge/stopwords-lists`</a>
