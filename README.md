@@ -9,10 +9,10 @@ Backend is build in Python using Flask framework
 - [Features](#Features)
 - [Reference](#Reference)
 
-##Prerequisites
+## Prerequisites
 Python (2.7 or 3.5+) and Flask 
 
-##Installation
+## Installation
 1. Download and install Python at <a href="https://www.python.org/downloads/">`https://www.python.org/downloads/`</a>.
 2. Create environment and Install Flask by following the instructions at <a href="https://flask.palletsprojects.com/en/1.1.x/installation/#installation">`https://flask.palletsprojects.com/en/1.1.x/installation/#installation`</a>.
 Alternative way: do not need to install FLask, install Pycharm instead. Pycharm can build Flask project more easily.
@@ -32,7 +32,7 @@ python application.py
 
 If using Pycharm, just follow the instructions at <a href="https://www.jetbrains.com/help/pycharm/creating-flask-project.html">`https://www.jetbrains.com/help/pycharm/creating-flask-project.html`</a>. It is really easy to build the environment and run the app.
 
-##Features
+## Features
 1. Home Page
 -Top headlines are provided by the Google News API in sliding format (change every few seconds).
 -Words are sorted by frequency and then generate a Word cloud which is displayed next to the slide.
@@ -44,8 +44,8 @@ If using Pycharm, just follow the instructions at <a href="https://www.jetbrains
 -Click show more button can show 15 news at most, click show less button display the first 5 articles.
 -Every news card have hover effect and is clickable, additional information will be desplayed after clicking.
 
-##Reference
--word cloud is implemented using D3.js
+## Reference
+- word cloud is implemented using D3.js
  <a href="https://www.d3-graph-gallery.com/graph/wordcloud_size.html">`https://www.d3-graph-gallery.com/graph/wordcloud_size.html`</a>
--stop words
+- stop words
  <a href="https://sites.google.com/site/kevinbouge/stopwords-lists">`https://sites.google.com/site/kevinbouge/stopwords-lists`</a>
