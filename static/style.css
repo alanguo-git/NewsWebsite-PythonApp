@@ -1,0 +1,269 @@
+#top{
+    margin-top: 2em;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    position: relative;
+    right: 5em;
+}
+#topleft{
+    width: 10em;
+    float: left;
+}
+#topleft ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: block;
+    width: 10em;
+    text-align: center;
+}
+li button{
+    border-width: thin;
+    border-radius: 3px;
+    border-color: black;
+    width: 10em;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: auto;
+}
+li button:hover {
+    background-color: green;
+    color: white;
+}
+li .selected{
+    color:white;
+    background-color:dimgray;
+}
+li .unselected{
+    color: black;
+    background-color:rgb(230, 230, 230);
+}
+form{
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgb(230, 230, 230);
+    margin-left: 1em;
+    width: 43em;
+}
+form label, input, select{
+    margin: 0.5em;
+}
+label spam{
+    color: red;
+}
+#topright{
+    float: left;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0em;
+}
+#slide{
+    float:left;
+}
+.slide{
+    float:left;
+    position:relative;
+    height: 204px;
+    width: 350px;
+}
+img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+.bottomText{
+    padding: 0em;
+    color: white;
+    position: absolute;
+    bottom: 0em;
+    text-align: center;
+    background-color: rgb(80, 80, 80, 0.5);
+    width: 330px;
+    padding: 10px;
+    font-size: 5px;
+    font-size: xx-small;
+}
+.bottomText p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.bottomText h2{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#bottom{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+#cnn{
+    overflow: hidden;
+}
+#cnntitle{
+    margin-top: 1em;
+    border-bottom:1px dotted;
+    margin-left:auto;
+    margin-right:auto;
+}
+#cnntitle h1{
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+#cnncontent{
+    border-top:1px solid;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    display: inline-block;
+}
+#fox{
+    overflow: hidden;
+}
+#foxtitle{
+    margin-top: 1em;
+    border-bottom:1px dotted;
+    margin-left:auto;
+    margin-right:auto;
+}
+#foxcontent{
+    border-top: 1px solid;
+    margin-left:auto;
+    margin-right:auto;
+    display: inline-block;
+}
+#foxtitle h1{
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+.card{
+    border: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: black;
+    width: 150px;
+    height: 350px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    overflow: hidden;
+}
+.card img{
+    border-radius: 5px;
+    width: 100%;
+    height:6em;
+    object-fit: cover
+}
+.card h2{
+    font-size: small;
+}
+.card p{
+    margin: 2px;
+    font-size: x-small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#my_dataviz{
+    margin-left: 1em;
+    float: left;
+    background-color:rgb(230, 230, 230);
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.box{
+    margin-bottom: 0.5em;
+    background-color: rgb(230, 230, 230);;
+    overflow: auto;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+}
+.box:hover{
+    box-shadow: 5px 10px 18px #888888;
+}
+#searchResult img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover
+}
+#searchResult .left{
+    margin: 1em;
+    float: left;
+}
+#searchResult .right{
+    margin: 1em;
+    width: 450px;
+    float: left;
+    font-size: x-small;
+}
+form button{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+#searchResult button{
+    color: black;
+    background-color:rgb(230, 230, 230);
+    border: none;
+    border-radius: 3px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#searchResult button:hover{
+    background-color: green;
+    color: white;
+}
+.box spam{
+    font-weight: bold;
+}
+.box .cancel{
+    position: relative;
+    font-size: large;
+    bottom: 8px;
+    width: 1em;
+    cursor: pointer;
+    float: right;
+}
+#category{
+    width: 110px;
+}
+#source{
+    width: 110px;
+}
+#searchResult{
+    margin-top: 20px;
+}
+.truncate p{
+    width:450px;
+    text-overflow: ellipsis;
+    height: 15px;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+}
+.truncate h2{
+    width:450px;
+    text-overflow: ellipsis;
+    height: 40px;
+    overflow: hidden;
+    display: block;
+}
